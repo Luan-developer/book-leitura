@@ -1,0 +1,45 @@
+.container h2 {
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.box {
+  width: 560px;
+  padding: 25px;
+}
+
+.container .Tt {
+  color: red;
+  text-transform: uppercase;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}
+
+footer span {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 500;
+}
