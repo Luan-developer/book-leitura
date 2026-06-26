@@ -1,3 +1,7 @@
+:root {
+  ---CorVermelha: red;
+}
+
 .container h2 {
   font-size: 1.9rem;
   text-align: center;
@@ -9,7 +13,7 @@
 }
 
 .container .Tt {
-  color: red;
+  color: var(---CorVermelha);
   text-transform: uppercase;
 }
 
@@ -39,7 +43,11 @@ footer p {
 }
 
 footer span {
-  color: red;
+  color: var(---CorVermelha);
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.box .spanAuthorBook {
+  color: var(---CorVermelha);
 }
